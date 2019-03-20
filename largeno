@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+int a,b,c;
+printf("enter the three numbers:");
+scanf("%d%d%d",&a,&b,&c);
+if(b>c)
+{
+if(a>c)
+{
+printf(a);
+}
+else
+{
+printf(c);
+}
+else
+{
+printf(b);
+}
+}
+
