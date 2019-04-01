@@ -1,5 +1,5 @@
 #include <stdio.h>
-main()
+void main()
 {
 int a,b,c;
 printf("Enter the values:");
@@ -16,8 +16,11 @@ printf("c is the greatest among three \n");
 }
 }
 else if (b>c)
+{
 printf("b is the greatest among three \n");
+}
 else
+{
 printf("c is the greatest among three \n");
 }
-
+}
