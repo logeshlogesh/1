@@ -19,8 +19,8 @@ else if (b>c)
 {
 printf("b is the greatest among three \n");
 }
-}
 else
 {
 printf("c is the greatest among three \n");
+}
 }
