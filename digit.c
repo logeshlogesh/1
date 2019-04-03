@@ -1,14 +1,18 @@
 #include <stdio.h>
-main()
+
+int main()
 {
-long n;
-int count = 0;
-printf("Enter a integer: ");
-scanf("%lld",&n);
-while(n!=0)
-{
-n/=10;
-++count;
-}
-printf("Number of digits:%d",count);
+     int n,k,sum=0;
+     printf("enter tha value");
+     scanf("%d%d",&n,&k);
+     int a[n];
+     for (int i=0;i<n;i++);
+     {
+     scanf("%d",&a[n]);
+     }
+     for(int i=0;i<k;i++);
+    {
+        sum+=a[n];
+     }
+     printf("%d",sum);
 }
