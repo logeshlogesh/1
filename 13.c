@@ -19,9 +19,9 @@ printf("1 is neither a prime nor a composite number.");
 else 
 {
 if(flag==0)
-printf("%d is a prime number.", n);
+printf("yes");
 else
-printf("%d is not a prime number.", n);
+printf("no");
 }
 return 0;
 }
